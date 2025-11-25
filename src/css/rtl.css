@@ -1,0 +1,392 @@
+/* RTL (Right-to-Left) Styles for Hebrew Version */
+
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Text Alignment */
+[dir="rtl"] .details.color-black,
+[dir="rtl"] .details.color-black.center {
+  text-align: right;
+}
+
+[dir="rtl"] .details.color-black.center {
+  text-align: center;
+}
+
+[dir="rtl"] .title-1 {
+  text-align: right;
+}
+
+[dir="rtl"] .title-1.center {
+  text-align: center;
+}
+
+[dir="rtl"] .industry-title {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-head1 {
+  text-align: right;
+}
+
+[dir="rtl"] .s-title,
+[dir="rtl"] .s-des,
+[dir="rtl"] .p-title {
+  text-align: right;
+}
+
+[dir="rtl"] .counter-subtitle {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-link1 {
+  text-align: right;
+}
+
+/* Navigation */
+[dir="rtl"] .navbar-wrapper-three {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-menu-three {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav-menu-block {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .navlink {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+[dir="rtl"] .navlink:first-child {
+  padding-right: 0;
+}
+
+[dir="rtl"] .navbar-button {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+[dir="rtl"] .language-switcher {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+/* Hero Section */
+[dir="rtl"] .hero-content-area {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-heading {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-details {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-button {
+  text-align: right;
+}
+
+/* About Section */
+[dir="rtl"] .industry-content {
+  text-align: right;
+}
+
+[dir="rtl"] .industry-des {
+  text-align: right;
+}
+
+/* Services Section */
+[dir="rtl"] .service-growth-heading {
+  text-align: right;
+}
+
+[dir="rtl"] .service-heading {
+  text-align: right;
+}
+
+[dir="rtl"] .service-details {
+  text-align: right;
+}
+
+[dir="rtl"] .service-card {
+  text-align: right;
+}
+
+[dir="rtl"] .card-details {
+  text-align: right;
+}
+
+/* Results Section */
+[dir="rtl"] .potential-market-heading {
+  text-align: right;
+}
+
+[dir="rtl"] .potential-card1 {
+  text-align: right;
+}
+
+[dir="rtl"] .potential-card-title {
+  text-align: right;
+}
+
+[dir="rtl"] .potential-card-des {
+  text-align: right;
+}
+
+[dir="rtl"] .potential-card-des.center {
+  text-align: center;
+}
+
+/* Industry/Bathroom Section */
+[dir="rtl"] .bathroom-contents {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+[dir="rtl"] .content-text-area {
+  text-align: right;
+}
+
+[dir="rtl"] .content-title {
+  text-align: right;
+}
+
+[dir="rtl"] .content-text-des {
+  text-align: right;
+}
+
+[dir="rtl"] .content-counter {
+  flex-direction: row-reverse;
+}
+
+/* Contact Form */
+[dir="rtl"] .contact-form-area {
+  text-align: right;
+}
+
+[dir="rtl"] .form-head {
+  text-align: right;
+}
+
+[dir="rtl"] .form-title {
+  text-align: right;
+}
+
+[dir="rtl"] .form-title.center {
+  text-align: center;
+}
+
+[dir="rtl"] .form-des {
+  text-align: right;
+}
+
+[dir="rtl"] .form-area {
+  text-align: right;
+}
+
+/* Form Fields - Icon Positioning */
+[dir="rtl"] .name-feild,
+[dir="rtl"] .phone-feild,
+[dir="rtl"] .email-feild {
+  position: relative;
+}
+
+[dir="rtl"] .name-icons,
+[dir="rtl"] .phone-icons,
+[dir="rtl"] .email-icons {
+  position: absolute;
+  right: 16px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+[dir="rtl"] .text-field-3 {
+  padding-right: 48px;
+  padding-left: 16px;
+  text-align: right;
+}
+
+[dir="rtl"] .text-field-3::placeholder {
+  text-align: right;
+}
+
+[dir="rtl"] .submit-btn {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+[dir="rtl"] .submit-icons {
+  margin-right: 0;
+  margin-left: 12px;
+}
+
+[dir="rtl"] .success-message,
+[dir="rtl"] .error-message {
+  text-align: right;
+}
+
+/* Footer */
+[dir="rtl"] .footer-wrapper-two {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-content {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-block-two {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-title {
+  text-align: right;
+}
+
+[dir="rtl"] .footer-icons {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-bottom {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-policy {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .footer-copyright {
+  text-align: right;
+}
+
+/* Logo Marquee */
+[dir="rtl"] .static-marquee_logos {
+  animation-direction: reverse;
+}
+
+/* General Layout Adjustments */
+[dir="rtl"] .main-container {
+  text-align: right;
+}
+
+[dir="rtl"] .main-wrapper {
+  direction: rtl;
+}
+
+[dir="rtl"] .page-wrapper {
+  direction: rtl;
+}
+
+/* Flexbox Reversals */
+[dir="rtl"] .service-card-area {
+  flex-direction: row;
+}
+
+[dir="rtl"] .potential-israels-market-card-area {
+  flex-direction: row;
+}
+
+[dir="rtl"] .second-row {
+  flex-direction: row;
+}
+
+/* Button Alignment */
+[dir="rtl"] .btn-design {
+  text-align: center;
+}
+
+[dir="rtl"] .btn-area {
+  text-align: center;
+}
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 991px) {
+  [dir="rtl"] .navbar-wrapper-three {
+    flex-direction: column;
+  }
+
+  [dir="rtl"] .nav-menu-three {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  [dir="rtl"] .nav-menu-block {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  [dir="rtl"] .bathroom-contents {
+    flex-direction: column;
+  }
+
+  [dir="rtl"] .content-counter {
+    flex-direction: row;
+  }
+
+  [dir="rtl"] .footer-wrapper-two {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  [dir="rtl"] .footer-bottom {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  [dir="rtl"] .navlink {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  [dir="rtl"] .hero-head1,
+  [dir="rtl"] .title-1 {
+    text-align: right;
+  }
+
+  [dir="rtl"] .service-card-area {
+    flex-direction: column;
+  }
+
+  [dir="rtl"] .potential-israels-market-card-area {
+    flex-direction: column;
+  }
+
+  [dir="rtl"] .second-row {
+    flex-direction: column;
+  }
+}
+
+/* Ensure proper text direction for mixed content */
+[dir="rtl"] input[type="text"],
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="tel"],
+[dir="rtl"] textarea {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Address and contact info */
+[dir="rtl"] address {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Ensure numbers display correctly in RTL */
+[dir="rtl"] .counter-text {
+  direction: ltr;
+  text-align: center;
+  display: inline-block;
+}
+

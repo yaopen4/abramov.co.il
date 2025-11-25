@@ -1,0 +1,23 @@
+{
+  "name": "abramov-co-il",
+  "version": "1.0.0",
+  "description": "Static landing page for Abramov Gefen Ltd - Construction industry services in Israel",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "landing-page",
+    "construction",
+    "israel",
+    "static-site"
+  ],
+  "author": "Abramov Gefen Ltd",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+
