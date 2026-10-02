@@ -72,7 +72,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Mobile menu toggle - removed as hamburger menu is no longer needed
+  // Mobile menu toggle
+  const menuButton = document.querySelector('.menu-button');
+  const navMenu = document.getElementById('nav-menu-three');
+
+  if (menuButton && navMenu) {
+    menuButton.addEventListener('click', function() {
+      const isOpen = navMenu.classList.toggle('nav-open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.classList.toggle('w--open', isOpen);
+      const icon = menuButton.querySelector('.menu-icon');
+      if (icon) icon.textContent = isOpen ? '✕' : '☰';
+    });
+
+    // Close menu after clicking a nav link
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function() {
+        navMenu.classList.remove('nav-open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.classList.remove('w--open');
+        const icon = menuButton.querySelector('.menu-icon');
+        if (icon) icon.textContent = '☰';
+      });
+    });
+  }
 
   // Form submission handling
   const contactForm = document.getElementById('contact-form');

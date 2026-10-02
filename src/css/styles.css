@@ -4421,8 +4421,17 @@ textarea.w-input, textarea.w-select {
     align-items: center;
     margin-top: 10px;
     padding: 20px;
-    display: flex;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 10;
     box-shadow: 0 8px 50px #0000000d;
+  }
+
+  .nav-menu-three.nav-open {
+    display: flex;
   }
 
   .container-3 {
@@ -4473,11 +4482,7 @@ textarea.w-input, textarea.w-select {
   }
 
 .menu-button {
-  display: none !important;
-}
-
-.menu-button.w--open {
-  display: none !important;
+  display: flex !important;
 }
 
   .navbar-brand-three1 {
@@ -4790,10 +4795,6 @@ textarea.w-input, textarea.w-select {
     margin-bottom: 0;
     font-size: 56px;
     line-height: 100%;
-  }
-
-  .menu-button {
-    display: none !important;
   }
 
   .hero-button {
@@ -5651,6 +5652,16 @@ textarea.w-input, textarea.w-select {
   line-height: 1;
   display: inline-block;
   color: inherit;
+}
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* RTL Support - Basic compatibility */

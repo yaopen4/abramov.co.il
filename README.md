@@ -50,4 +50,3 @@ abramov-co-il/
 - Accessible by default: ships with the NagishLi v2.3 widget (`public/nagishli`); configure `window.nl_*` globals before importing `/nagishli/nagishli.js` to localize (English defaults in `src/index.html`, Hebrew in `src/he/index.html`).
 - Flexible theming: primary palette lives in `src/css/styles.css` (`--blue-deep`, `--gray_black`, `--blue-smoke`, `--bg-blue`, `--white`) for quick brand adjustments.
 
-# abramov.co.il
